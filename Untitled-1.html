@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️PARA ALEJANDRA❤️</title>
+    <style>
+        .body{
+            background-color: rgb(221, 151, 236);
+            text-align: center;
+        }
+
+        .body__img{
+            width:25%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title">FELIZ CUMPLEAÑOS PRECIOSA💖 </h1>
+    <h2>Hoy en este dia tan especial, solo quiero decirte que estoy feliz de haberte conocido, de haber coincidido con alguien tan increible como tu, alguien admirable, alguien tan alegre con una sonrisa hermosa que enamora❤️es un honor para mi poder compartir este dia contigo, eres muy especial para mi y espero de corazon compartir mas momento y memorias contigo❤️GRACIAS POR LLEGAR A MI VIDA❤️ME COMPLEMENTAS  </h2>
+    <h3>¿Me harias el favor de continuar a la siguiente parte? puedes darle al si o al no jeje>
+    <img class="body__img"
+      src="file:///C:/Users/USER/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/TempState/6746201227327C1C921895265C1C58D2/Imagen%20de%20WhatsApp%202023-11-19%20a%20las%2020.01.48_a8fca322.jpg" 
+      alt="porfis">
+    <button id="yes">Si</button>
+    <button id="no">No</button>
+
+    <script>
+        const vutonSi = document.getElementById("yes")
+        const vutonNo = document.getElementById("no")
+
+        const jueguito = () => {
+            alert("Vamos a la siguiente parte de su pequeño obsequio");
+            alert("Ante que avances quiero decirte que me encantas demasiado, me haces muy feli y esto es solo una pequeñisima parte de lo que mereces mi reina")
+            alert("KHEEE TRAKAAAAA jaajajajja ya ahora si, dele al boton aceptar y disfruta esta cancion mi reina")
+            location.href = "https://www.youtube.com/watch?v=KrXmFQCPqfQ";
+        }
+
+        const ebitarKCRompaMyBobo = () => {
+            vutonNo.style.position = "absolute";
+            vutonNo.style.top = (Math.random() * window.innerHeight) + "px";
+            vutonNo.style.left = (Math.random() * window.innerHeight) + "px";
+        }
+
+        vutonSi.addEventListener("click" , jueguito);
+        vutonNo.addEventListener("mouseover" , ebitarKCRompaMyBobo);
+    </script>
+</body>
+    
+</html>
